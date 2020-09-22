@@ -1972,12 +1972,12 @@ __webpack_require__.r(__webpack_exports__);
 
 function add_css() {
 	var style = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("style");
-	style.id = "svelte-ciftce-style";
-	style.textContent = "#app-root.svelte-ciftce{display:flex;height:100vh;width:100vw;background-color:black}.btns.svelte-ciftce{position:absolute;bottom:1em;left:1em;display:flex;flex-direction:row}";
+	style.id = "svelte-1jyg78f-style";
+	style.textContent = "#app-root.svelte-1jyg78f{display:flex;height:100vh;width:100vw;background-color:black}.btns.svelte-1jyg78f{position:absolute;bottom:1em;left:1em;display:flex;flex-direction:row}video.svelte-1jyg78f{min-height:20vh;min-width:20vw}";
 	Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(document.head, style);
 }
 
-// (43:4) {#if showModalPan}
+// (47:4) {#if showModalPan}
 function create_if_block_2(ctx) {
 	let modal;
 	let current;
@@ -2026,7 +2026,7 @@ function create_if_block_2(ctx) {
 	};
 }
 
-// (45:8) <h2 slot="header">
+// (49:8) <h2 slot="header">
 function create_header_slot_2(ctx) {
 	let h2;
 
@@ -2045,7 +2045,7 @@ function create_header_slot_2(ctx) {
 	};
 }
 
-// (44:4) <Modal on:close="{() => showModalPan = false}">
+// (48:4) <Modal on:close="{() => showModalPan = false}">
 function create_default_slot_2(ctx) {
 	let t;
 	let video;
@@ -2059,6 +2059,7 @@ function create_default_slot_2(ctx) {
 			video.controls = true;
 			video.autoplay = true;
 			video.loop = true;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(video, "class", "svelte-1jyg78f");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t, anchor);
@@ -2072,7 +2073,7 @@ function create_default_slot_2(ctx) {
 	};
 }
 
-// (53:4) {#if showModalMovie}
+// (57:4) {#if showModalMovie}
 function create_if_block_1(ctx) {
 	let modal;
 	let current;
@@ -2121,7 +2122,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (55:8) <h2 slot="header">
+// (59:8) <h2 slot="header">
 function create_header_slot_1(ctx) {
 	let h2;
 
@@ -2140,7 +2141,7 @@ function create_header_slot_1(ctx) {
 	};
 }
 
-// (54:4) <Modal on:close="{() => showModalMovie = false}">
+// (58:4) <Modal on:close="{() => showModalMovie = false}">
 function create_default_slot_1(ctx) {
 	let t;
 	let video;
@@ -2154,6 +2155,7 @@ function create_default_slot_1(ctx) {
 			video.controls = true;
 			video.autoplay = true;
 			video.loop = true;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(video, "class", "svelte-1jyg78f");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t, anchor);
@@ -2167,7 +2169,7 @@ function create_default_slot_1(ctx) {
 	};
 }
 
-// (63:4) {#if showModalMsg}
+// (67:4) {#if showModalMsg}
 function create_if_block(ctx) {
 	let modal;
 	let current;
@@ -2216,7 +2218,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (65:8) <h2 slot="header">
+// (69:8) <h2 slot="header">
 function create_header_slot(ctx) {
 	let h2;
 
@@ -2235,7 +2237,7 @@ function create_header_slot(ctx) {
 	};
 }
 
-// (64:4) <Modal on:close="{() => showModalMsg = false}">
+// (68:4) <Modal on:close="{() => showModalMsg = false}">
 function create_default_slot(ctx) {
 	let t0;
 	let strong;
@@ -2306,9 +2308,9 @@ function create_fragment(ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button0, "class", "btn");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button1, "class", "btn");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button2, "class", "btn");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "btns svelte-ciftce");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "btns svelte-1jyg78f");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "id", "app-root");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "svelte-ciftce");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "svelte-1jyg78f");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div1, anchor);
@@ -2462,7 +2464,7 @@ function instance($$self, $$props, $$invalidate) {
 class App extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-ciftce-style")) add_css();
+		if (!document.getElementById("svelte-1jyg78f-style")) add_css();
 		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {});
 	}
 }
@@ -2678,8 +2680,8 @@ const { document: document_1 } = svelte_internal__WEBPACK_IMPORTED_MODULE_0__["g
 
 function add_css() {
 	var style = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("style");
-	style.id = "svelte-1k3utew-style";
-	style.textContent = ".modal-background.svelte-1k3utew{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.3)}.modal.svelte-1k3utew{position:absolute;left:50%;top:50%;width:calc(100vw - 4em);max-width:32em;max-height:calc(100vh - 4em);overflow:auto;transform:translate(-50%,-50%);padding:1em;border-radius:0.2em;background:white}button.svelte-1k3utew{display:block}";
+	style.id = "svelte-iopch2-style";
+	style.textContent = ".modal-background.svelte-iopch2{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.3)}.modal.svelte-iopch2{position:absolute;left:50%;top:50%;width:calc(100vw - 4em);max-width:60vw;max-height:calc(100vh - 4em);overflow:auto;transform:translate(-50%,-50%);padding:1em;border-radius:0.2em;background:white}button.svelte-iopch2{display:block}";
 	Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(document_1.head, style);
 }
 
@@ -2720,10 +2722,10 @@ function create_fragment(ctx) {
 			t4 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			button = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("button");
 			button.textContent = "↙️";
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "modal-background svelte-1k3utew");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "modal-background svelte-iopch2");
 			button.autofocus = true;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button, "class", "svelte-1k3utew");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "modal svelte-1k3utew");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button, "class", "svelte-iopch2");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "modal svelte-iopch2");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "role", "dialog");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "aria-modal", "true");
 		},
@@ -2850,7 +2852,7 @@ function instance($$self, $$props, $$invalidate) {
 class Modal extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
 	constructor(options) {
 		super();
-		if (!document_1.getElementById("svelte-1k3utew-style")) add_css();
+		if (!document_1.getElementById("svelte-iopch2-style")) add_css();
 		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {});
 	}
 }
